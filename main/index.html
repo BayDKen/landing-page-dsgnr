@@ -6,9 +6,10 @@
   <title>Document</title>
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
-<body class="items-center text-center">
+<body>
   <!-- Homepage header -->
-  <div class="bg-[url('/assets/img/bg-wp.png')] lg:mb-24 mb-16">
+  <header class="items-center text-center">
+    <div class="bg-[url('/assets/img/bg-wp.png')] lg:mb-24 mb-16">
       <div class="flex justify-between lg:px-32 px-8 pt-8 lg:mb-36 mb-12 items-center">
           <h1 class="font-bold font-sans lg:text-3xl text-base text-white">dsgnr.</h1>
           <img src="/assets/img/Hamburger.png" class="lg:w-16 lg:h-16 h-6 w-6" alt="">
@@ -20,54 +21,100 @@
       <div class="flex justify-center items-center">
         <img class="" src="/assets/img/hand-gst.png" alt="">
       </div>
-  </div>
-  
+    </div>
+  </header>
   <!-- BAGIAN BODY-->
   <!-- header-body -->
-  <div class="lg:mx-24 mx-6">
-    <div class="text-left lg:text-5xl text-3xl font-bold my-12">
-      <h1>Featured Work</h1>
+  <main class="mb-20">
+    <div class="lg:mx-24 mx-6">
+      <div class="text-left lg:text-5xl text-3xl font-bold my-12">
+        <h1>Featured Work</h1>
+      </div>
+      <div class="text-right lg:text-3xl text-lg font-medium ">
+        <h1 class="lg:mr-40 mr-4">We are an award-winning creative & <br> design agency committed to <br> excellence since forever.</h1>
+      </div>
     </div>
-    <div class="text-right lg:text-3xl text-lg font-medium ">
-      <h1 class="lg:mr-40 mr-4">We are an award-winning creative & <br> design agency committed to <br> excellence since forever.</h1>
+    <!-- 6 image pakai grid cols -->
+    <div class="grid grid-cols-2 lg:gap-12 lg:mx-60 lg:my-40 mx-20 my-20 gap-8 text-center">
+      <div class="rounded-md bg-gray-100 w-auto">
+        <img src="/assets/img/01.png" class="bg-gray-300 w-full" alt="">
+      </div>
+      <div class="rounded-md bg-gray-100 w-auto">
+        <img src="/assets/img/02.png" class="bg-gray-300 w-full" alt="">
+      </div>
+      <div class="rounded-md bg-gray-100 w-auto">
+        <img src="/assets/img/03.png" class="bg-gray-300 w-full" alt="">
+      </div>
+      <div class="rounded-md bg-gray-100 w-auto">
+        <img src="/assets/img/04.png" class="bg-gray-300 w-full" alt="">
+      </div>
+      <div class="rounded-md bg-gray-100 w-auto">
+        <img src="/assets/img/05.png" class="bg-gray-300 w-full" alt="">
+      </div>
+      <div class="rounded-md bg-gray-100 w-auto">
+        <img src="/assets/img/06.png" class="bg-gray-300 w-full" alt="">
+      </div>
     </div>
-  </div>
-  <!-- 6 image pakai grid cols -->
-  <div class="grid grid-cols-2 lg:gap-12 lg:mx-60 lg:my-40 mx-20 my-20 gap-8 text-center">
-    <div class="rounded-md bg-gray-100 w-auto">
-      <img src="/assets/img/01.png" class="bg-gray-300 w-full" alt="">
+    <!-- text area -->
+    <div class="text-center lg:text-5xl text-lg font-bold lg:mt-72 mt-20 lg:mb-24 mb-16">
+      <h1>We worked with the worlds biggest <br> brands and the most innovative startups</h1>
     </div>
-    <div class="rounded-md bg-gray-100 w-auto">
-      <img src="/assets/img/02.png" class="bg-gray-300 w-full" alt="">
+    <div class="flex justify-center lg:mb-52 mb-16">
+      <img class="lg:px-40 px-12" src="/assets/img/client.png" width="" alt="">
     </div>
-    <div class="rounded-md bg-gray-100 w-auto">
-      <img src="/assets/img/03.png" class="bg-gray-300 w-full" alt="">
+    <section class="relative">
+        <!-- <div class="py-5">
+        </div > -->
+      <div class="absolute lg:right-[18%] lg:bottom-[45%] md:right-1/4 md:bottom-[40%] right-[8%] bottom-[20%] flex items-center lg:gap-32 gap-5">
+        <h1 class="lg:text-3xl md:text-xl text-sm font-bold text-left">Grow your business. <br>Build Great Products.</h1>
+        <div class="lg:px-9 lg:py-4 md:px-6 md:py-3 px-4 py-2 bg-black text-white text-xs lg:text-lg hover:bg-gray-700">Book a free call</div>
+      </div>
+      <img src="/assets/img/banner.png" alt="" class="w-full"> 
+    </section>  
+  </main>
+  <!-- bagian footer -->
+  <footer class="bg-black px-20 py-16 text-white">
+    <div id="foot-head" class="flex mb-10">
+        <section class="mr-40 pr-16 mb-9 items-center">
+          <div class="mb-9">
+            <h1 class="font-bold font-sans lg:text-3xl text-base">dsgnr.</h1>
+          </div>
+          <div class="mb-9">
+            <h1 class="text-lg"> Dsgnr. is an award winning creative and design agency <br> based in New York, USA.</h1>
+          </div>
+          <div class="flex gap-16  border border-yellow-300 px-4 py-2 mr-28 cursor-pointer text-center">
+            <img src="/assets/img/sms-notification.svg" alt="">
+            <h1 class="text-center font-bold">info@dsgnr.com</h1>
+          </div>  
+        </section>
+        <section class="mr-28 mt-2 text-lg">
+          <h1 class="mb-4 font-bold">What We Do</h1>
+          <ul >
+            <li class="mb-1">Intro</li>
+            <li class="mb-1">Home</li>
+            <li class="mb-1">Work</li>
+            <li class="mb-1">Pricing</li>
+            <li class="mb-1">Contact Us</li>
+          </ul>
+        </section>
+        <section class="mt-2 text-lg">
+          <h1 class="mb-4 font-bold">Who We Are</h1>
+          <ul>
+            <li class="mb-1">About</li>
+            <li class="mb-1">News</li>
+            <li class="mb-1">Testimonials</li>
+          </ul>
+        </section>
     </div>
-    <div class="rounded-md bg-gray-100 w-auto">
-      <img src="/assets/img/04.png" class="bg-gray-300 w-full" alt="">
+    <div id="foot-body" class="flex text-lg justify-between items-center">
+      <section class="flex gap-5">
+        <h1>Privacy Policy</h1>
+        <h1>Terms</h1>
+      </section>
+      <section class="flex">
+        <img src="/assets/img/Socials.png" alt="">
+      </section>
     </div>
-    <div class="rounded-md bg-gray-100 w-auto">
-      <img src="/assets/img/05.png" class="bg-gray-300 w-full" alt="">
-    </div>
-    <div class="rounded-md bg-gray-100 w-auto">
-      <img src="/assets/img/06.png" class="bg-gray-300 w-full" alt="">
-    </div>
-  </div>
-  <!-- text area -->
-  <div class="text-center lg:text-5xl text-xl font-bold lg:mt-72 mt-20 lg:mb-24 mb-16">
-    <h1>We worked with the worlds biggest <br> brands and the most innovative startups</h1>
-  </div>
-  <div class="flex justify-center lg:mb-52 mb-16">
-    <img src="/assets/img/client.png" alt="">
-  </div>
-  <div class="relative">
-    <!-- <div class="py-5">
-    </div > -->
-    <div class="absolute lg:right-[18%] lg:bottom-[40%] right-[8%] bottom-[20%] flex items-center lg:gap-24 gap-5">
-      <h1 class="lg:text-3xl text-sm font-bold text-left">Grow your business. <br>Build Great Products.</h1>
-      <div class="lg:px-7 lg:py-4 px-4 py-2 bg-black text-white text-xs hover:bg-gray-700">Book a free call</div>
-    </div>
-      <img src="/assets/img/banner.png" alt="" class="w-full">
-  </div>
+  </footer>
 </body>
 </html>
